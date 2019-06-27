@@ -17,14 +17,12 @@ export function Setup({ navigation }: SetupProps) {
 			/>
 			<KeyboardAvoidingView
 				behavior="padding"
-				style={
-					{
-						// flex: 1,
-						// justifyContent: 'center',
-						// alignItems: 'center',
-						// backgroundColor: theme.colors.background,
-					}
-				}
+				style={{
+					flex: 1,
+					justifyContent: 'center',
+					alignItems: 'center',
+					backgroundColor: theme.colors.background,
+				}}
 			>
 				<Text>Pick a word:</Text>
 				<TextInput
